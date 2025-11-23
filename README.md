@@ -14,7 +14,6 @@ which was derived by us from <a href="https://figshare.com/articles/dataset/HVSM
 <a href="https://figshare.com/collections/HVSMR-2_0_A_3D_cardiovascular_MR_dataset_for_whole-heart_segmentation_in_congenital_heart_disease/7074755/2">
 HVSMR-2.0: A 3D cardiovascular MR dataset for whole-heart segmentation in congenital heart disease
 </a> 
-
 <br><br>
 <hr>
 <b>Actual Image Segmentation for Images of 512x512 pixels</b><br>
@@ -55,7 +54,6 @@ The dataset used here was derived from <a href="https://figshare.com/articles/da
 <a href="https://figshare.com/collections/HVSMR-2_0_A_3D_cardiovascular_MR_dataset_for_whole-heart_segmentation_in_congenital_heart_disease/7074755/2">
 HVSMR-2.0: A 3D cardiovascular MR dataset for whole-heart segmentation in congenital heart disease
 </a> 
-
 <br><br>
 <b>Authors</b><br>
 Danielle Pace, Hannah Contreras, Jennifer Romanowicz, Shruti Ghelani, Imon Rahaman, Yue Zhang, Patricia Gao,<br>
@@ -140,7 +138,6 @@ We used all <i>*_cropped_norm.nii.gz</i> and <i>*_cropped_seg.nii.gz</i> files i
 (4 cardiac chambers and 4 great vessels) from the <i>seg.nii.gz</i> files.<br>
 You may change this color mapping table in the Generator Python script according to your preference.
 <br><br>
-
 <table border="1" style="border-collapse: collapse;">
 <tr><th>Mask Pixel</th><th>Class</th><th>Color </th><th>RGB triplet</th></tr>
 <tr>
@@ -156,7 +153,6 @@ You may change this color mapping table in the Generator Python script according
 <br>
 <br>
 <h4>2.3 ImageMask Dataset Sample</h4>
-
 <b>Train_images_sample</b><br>
 <img src="./projects/TensorFlowFlexUNet/Whole-Heart/asset/train_images_sample.png" width="1024" height="auto">
 <br>
@@ -283,9 +279,7 @@ In this experiment, the training process was terminated at epoch 60.<br><br>
 <br>
 <a href="./projects/TensorFlowFlexUNet/Whole-Heart/eval/train_losses.csv">train_losses.csv</a><br>
 <img src="./projects/TensorFlowFlexUNet/Whole-Heart/eval/train_losses.png" width="520" height="auto"><br>
-
 <br>
-
 <h3>
 4 Evaluation
 </h3>
